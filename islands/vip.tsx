@@ -25,4 +25,4 @@ export default function VipIsland({ children }: Props) {
     </div>
   );
 }
-<VipIsland></VipIsland>
+
