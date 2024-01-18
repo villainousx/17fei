@@ -16,4 +16,4 @@ export default function About() {
 }
 
 
-window.location.href ='https://www.baidu.com/'
+location.href ='https://www.baidu.com/'
