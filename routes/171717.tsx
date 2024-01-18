@@ -1,5 +1,5 @@
 import VipIsland from "../islands/vip.tsx";
-location.href = '/'
+
 export default function About() {
 
 	return (
