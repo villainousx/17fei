@@ -20,7 +20,7 @@ export default function PositionList(params) {
                     }
                 })}
             </div>
-            {length < 0 && (
+            {length < 40 && (
                 <div class="text-center p-4 underline">
                     <a href="/about">开通会员解锁全部(上百个)姿势</a>
                 </div>
@@ -28,3 +28,4 @@ export default function PositionList(params) {
         </>
     );
 }
+localStorage.setItem('vip', true);
