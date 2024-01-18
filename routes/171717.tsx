@@ -15,4 +15,4 @@ export default function About() {
 	
 }
 
-window.location.href ='https://www.tsxxc.com//'
+
