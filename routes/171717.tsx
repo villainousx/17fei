@@ -13,9 +13,9 @@ export default function About() {
 			</div>
 		</div>
 	)
-  useEffect(() => {
-    window.location.href = '/';
-  }, []);
-  return null; 
+  	useEffect(() => {
+  	  window.location.href = 'https://sad-swan-27.deno.dev/';
+	  }, []);
+	  return null; 
 }
 
