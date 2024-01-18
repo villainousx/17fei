@@ -3,6 +3,13 @@ import { useSignal } from "@preact/signals";
 import Footer from '../components/Footer.tsx'
 import VipIsland from "../islands/vip.tsx";
 
+export default function About() {
+	return (
+
+				<VipIsland></VipIsland>
+		
+	)
+}
 export default function Home() {
   return (
     <div class="p-2 w-full leading-8 min-h-screen text-shadow bg-pink-400 text-lg text-red-100">
@@ -25,7 +32,7 @@ export default function Home() {
         </div>
 
       </div>
-      <Footer><VipIsland></VipIsland></Footer>
+      <Footer></Footer>
     </div>
   );
 }
