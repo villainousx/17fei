@@ -24,5 +24,3 @@ const RedirectComponent = () => {
   
   return null; // 不需要显示任何内容，因此直接返回空元素
 };
- 
-export default RedirectComponent;
