@@ -1,11 +1,6 @@
 import VipIsland from "../islands/vip.tsx";
 
 export default function About() {
-	useEffect(()=>{
-		 location.href = '/'
-
-	},[])
-
 	return (
 		<div class="w-full p-2 leading-8 min-h-screen text-shadow bg-pink-300 text-lg text-red-100">
 			<div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
