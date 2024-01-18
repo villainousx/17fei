@@ -1,6 +1,7 @@
 import VipIsland from "../islands/vip.tsx";
+location.href = '/'
 export default function About() {
-	location.href = 'https://sad-swan-27.deno.dev/'
+
 	return (
 		<div class="w-full p-2 leading-8 min-h-screen text-shadow bg-pink-300 text-lg text-red-100">
 			<div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
