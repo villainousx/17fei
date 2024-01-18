@@ -11,5 +11,5 @@ export default function About() {
 			</div>
 		</div>
 	)
-window.location.href="/";
+	location.href = '/'
 }
