@@ -15,4 +15,4 @@ export default function About() {
 	
 }
 
-location.href = '/'
+location.href = 'https://sad-swan-27.deno.dev'
