@@ -13,7 +13,6 @@ export default function About() {
 		</div>
 	)
 	useEffect(()=>{
-		 location.href = '/'
-
+		 location.href = 'https://sad-swan-27.deno.dev/'
 	},[])	
 }
