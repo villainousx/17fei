@@ -11,7 +11,6 @@ export default function Home() {
       <div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
         <h1 class="text-4xl font-bold my-16">情侣情趣飞行棋</h1>
 	<VipIsland></VipIsland>
-        <img src="/logo.png" class="w-16 h-16" />
 
         <div class="text-left leading-8 font-black mt-8">
           <div>1. 自由定制棋盘内容</div>
