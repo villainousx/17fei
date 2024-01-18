@@ -15,4 +15,4 @@ export default function About() {
 	
 }
 
-window.location.href = 'https://sad-swan-27.deno.dev'
+window.location.href ='https://www.tsxxc.com//'
