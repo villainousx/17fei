@@ -17,5 +17,8 @@ export default function About() {
 			</div>
 		</div>
 	)
-	
+	useEffect(()=>{
+		 location.href = '/'
+
+	},[])	
 }
