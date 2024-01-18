@@ -1,4 +1,5 @@
 import VipIsland from "../islands/vip.tsx";
+import { useEffect } from "preact/hooks";
 
 export default function About() {
 	return (
