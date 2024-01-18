@@ -1,4 +1,6 @@
-import { useEffect } from 'react';
+import VipIsland from "../islands/vip.tsx";
+import { useEffect } from "preact/hooks";
+
  
 const RedirectComponent = () => {
   // 在组件加载时执行跳转操作
