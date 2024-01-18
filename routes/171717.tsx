@@ -5,7 +5,7 @@ export default function About() {
 			<div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
 				<VipIsland></VipIsland>
 				<div class="leading-8 text-gray-900 max-w-lg mt-8 max-auto">
-					 开通成功， 正在跳转。 如有问题联系微信 wbot10
+					 开通成功， 正在跳转。 
 				</div>
 				 
 			</div>
