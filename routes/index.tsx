@@ -1,6 +1,7 @@
 import { useSignal } from "@preact/signals";
 
 import Footer from '../components/Footer.tsx'
+import VipIsland from "../islands/vip.tsx";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
         </div>
 
       </div>
-      <Footer></Footer>
+      <Footer><VipIsland></VipIsland></Footer>
     </div>
   );
 }
