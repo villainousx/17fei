@@ -1,7 +1,5 @@
 import { useEffect, useState } from "preact/hooks";
 
-
-
 export default function PositionList(params) {
     let { positions } = params;
     let [length, setLength] = useState(10);
@@ -23,9 +21,9 @@ export default function PositionList(params) {
                 })}
             </div>
             {length < 40 && (
-                <div class="w-full p-2 leading-8 min-h-screen text-shadow bg-pink-300 text-lg text-red-100">
-			<div class="max-w-screen-md mx-auto flex flex-col items-center justify-center">
-				<VipIsland></VipIsland>
+                <div class="text-center p-4 underline">
+                    <a href="/about">开通会员解锁全部(上百个)姿势</a>
+                </div>
             )}
         </>
     );
