@@ -12,7 +12,7 @@ export default function Home() {
         <div class="text-left leading-8 font-black mt-8">
           <div>1. 自由定制棋盘内容</div>
           <div>2. 预设不同阶段互动内容 恋爱，情趣，好玩。满足各种口味快速开局。</div>
-          <div>3. 获取源码定制，一键接入自有app小程序, 公众号</div>
+
         </div>
         <div class="text-center mt-8">
           <div class="font-black my-4">游戏列表</div>
@@ -20,10 +20,9 @@ export default function Home() {
           <a href="/card" class="block px-4 my-4 border rounded bg-pink-600 underline w-60">任务卡牌</a>
           <a href="/position" class="block px-4 my-4 border rounded bg-pink-600 underline w-60">姿势卡牌</a>
           <a href="/positions" class="block px-4 my-4 border rounded bg-pink-600 underline w-60">姿势大全</a>
-          <a href="/member" class="block px-4 my-4 border rounded bg-pink-600 underline w-60">会员空间</a>
-          <a href="/ai" class="block px-4 my-4 border rounded bg-pink-600 underline w-60">AI伴侣</a>
+
         </div>
-        <div class="my-8">支持android，ios，平板，电脑等设备访问</div>
+
       </div>
       <Footer></Footer>
     </div>
