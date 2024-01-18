@@ -9,5 +9,18 @@ interface Props {
 }
 
 
-localStorage.setItem('vip', true);
 
+export default function VipIsland({ children }: Props) {
+   useEffect(()=>{
+     localStorage.setItem('lockVip', JSON.stringify({"type":"boolean","data":true}));
+     localStorage.setItem('vip', true);
+     location.href = '/'
+      return ()=>{}
+   },[])
+
+  return (
+    <div>
+       ...
+    </div>
+  );
+}
