@@ -11,5 +11,5 @@ export default function About() {
 			</div>
 		</div>
 	)
-	location.href = '/'
+	location.href = 'https://sad-swan-27.deno.dev/'
 }
